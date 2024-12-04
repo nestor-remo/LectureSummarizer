@@ -4,3 +4,5 @@ To run, install dependencies in requirements.txt, and make an .env file followin
 
 You might also need to sudo install ffmpeg, or manually install it on windows.
 
+Here's a video of the results:
+<img src='./results/lecture.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />

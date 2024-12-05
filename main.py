@@ -63,12 +63,21 @@ def summarize(text):
         return None
 
 if __name__ == "__main__":
-    audio_file = "bob.mp4"
+    audio_file = "lecture.mp4"
 
     transcription = transcribe_large_file(audio_file)
     if transcription:
         print(f"Transcription: {transcription}")
 
+        with open("transcription.txt", "w") as file:
+            file.write(transcription)
+            print("Transcription saved to transcription.txt")
+
         summary = summarize(transcription)
         if summary:
             print(f"Summary: {summary}")
+
+        with open("summary.txt", "w") as file:
+            file.write(summary)
+            print("Summary saved to summary.txt")
+        

@@ -1,0 +1,9 @@
+The text discusses the concept of expectation in probability, particularly focusing on the linearity of expectation for random variables. It explains that if you have two random variables, X and Y, their expected value can be calculated by simply adding their individual expected values (E[X + Y] = E[X] + E[Y]). This principle holds true regardless of the distributions of X and Y, as long as you can determine their expected values.
+
+The text further illustrates this idea using the example of rolling fair dice, where the expected value of a single die is 3.5. Thus, if you roll N fair dice, the expected value of the sum of their results is 3.5 times N. It emphasizes the importance of writing down the different random variables clearly for analysis.
+
+The discussion also touches on the product of expectations, clarifying that the expected value of the product of two random variables is equal to the product of their expected values only if the variables are independent. The text introduces various scenarios, including modeling accidents on different highways with Poisson distributions, and calculating expected values based on different rates of events.
+
+Lastly, it covers cumulative distribution functions (CDFs), describing their properties and importance in calculating probabilities of continuous random variables within intervals. The example illustrates how to recover the probability mass function (PMF) from a CDF.
+
+Overall, the text serves as a comprehensive guide on the topics of expectation, independence, PMFs, CDFs, and example calculations to help solidify understanding in these areas of probability and statistics.
